@@ -5,4 +5,16 @@
     <color name="oreng">#FF9F0A</color>
     <color name="gray_black">#a5a5a5</color>
     <color name="btn_black">#333333</color>
+    <color name="dark">#2B3345</color>
+    <color name="btnNext">#4687F0</color>
+    <color name="btnNext2">#693BFD</color>
+    <color name="red">#DC366A</color>
+    <color name="background">#28323B</color>
+    <color name="grey">#333333</color>
+    <color name="normal_grey">#E5E5E5</color>
+    <color name="white_grey">#A5A5A5</color>
+    <color name="orange">#FF9F0C</color>
+    <color name="thumb_color">#693BFD</color>
+    <color name="active_line_color">#2D4EF5</color>
+
 </resources>

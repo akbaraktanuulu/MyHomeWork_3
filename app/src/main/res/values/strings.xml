@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">MyHomeWork_3</string>
     <string name="title">Hello World</string>
+    <string name="free_text">free</string>
+    <string name="category_text">Category</string>
+    <string name="price_text">Price</string>
+    <string name="next_button_text">Next</string>
+    <string name="price_text_with_emoji">Price💰</string>
+    <string name="participants_text">Participants</string>
+    <string name="accessibility_text">Accessibility</string>
+    <string name="text">Explore the nightlife of your city</string>
 
 </resources>
