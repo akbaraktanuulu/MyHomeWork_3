@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
     
     <Button
+        android:visibility="gone"
         android:id="@+id/btn_open"
         android:textSize="24sp"
         android:background="@drawable/ic_next_button"

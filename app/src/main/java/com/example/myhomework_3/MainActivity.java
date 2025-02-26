@@ -1,7 +1,10 @@
 package com.example.myhomework_3;
 
+import static android.view.View.VISIBLE;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.opengl.Visibility;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -65,10 +68,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onOperationClick(View view) {
-        Button button = (Button) view;
+        Button button1 = (Button) view;
+
+        if (view.getId() == R.id.btn_equal){
+            button.setVisibility(VISIBLE);
+        }
+
         if (view.getId() != R.id.btn_equal) {
             firstOperand = Integer.parseInt(textView.getText().toString());
-            operator = button.getText().toString();
+            operator = button1.getText().toString();
         } else {
             secondOperand = Integer.parseInt(textView.getText().toString());
             // 33         12             21
